@@ -8,7 +8,8 @@ trigger:
         - /addUser
 domains:
     - VigoCodingDomain
-includes: []
+includes:
+    - /functions/addUser.go
 execution:
     timeout: 60s
     memory: 1MB
