@@ -1,0 +1,6 @@
+id: QmU1gxVsE4JRcmU7gvzGTeKWF8g6HhDHVyXDfPNkVoyKaH
+description: "Testing cloudflare domain "
+tags: []
+fqdn: vigocoding.com
+certificate:
+    type: auto

@@ -3,6 +3,7 @@ description: Testing the network
 tags: []
 domains:
     - GeneratedDomain
+    - VigoCodingDomain
 libraries: []
 source:
     paths:
