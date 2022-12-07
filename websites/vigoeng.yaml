@@ -6,7 +6,7 @@ domains:
 libraries: []
 source:
     paths:
-        - /public/index.html
+        - /build
     includes: []
     branch: main
     github:
