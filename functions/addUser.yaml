@@ -1,0 +1,15 @@
+id: QmZWVGa1KXrEnk2GAMM3TE9QWPJRS4jKHvwJQXsz8Zw9mU
+description: Function to write data into database
+tags: []
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /addUser
+domains:
+    - VigoCodingDomain
+includes: []
+execution:
+    timeout: 60s
+    memory: 1MB
+    call: addUser
