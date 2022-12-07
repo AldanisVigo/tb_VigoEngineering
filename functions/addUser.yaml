@@ -3,7 +3,7 @@ description: Ping function test
 tags: []
 trigger:
     type: https
-    method: POST
+    method: GET
     paths:
         - /ping
 domains:
