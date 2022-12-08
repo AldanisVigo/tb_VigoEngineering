@@ -11,6 +11,6 @@ domains:
 includes:
     - /functions/readjson.go
 execution:
-    timeout: 10s
+    timeout: 60s
     memory: 10MB
     call: readjson
