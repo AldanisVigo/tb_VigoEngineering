@@ -9,7 +9,7 @@ trigger:
 domains:
     - VigoCodingDomain
 includes:
-    - /functions/rd.go
+    - /functions/readDataAsJson.go
 execution:
     timeout: 60s
     memory: 1MB
