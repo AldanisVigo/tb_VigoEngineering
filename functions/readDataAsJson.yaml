@@ -8,8 +8,7 @@ trigger:
         - /readDataAsJson
 domains:
     - VigoCodingDomain
-includes:
-    - /functions/readDataAsJson.go
+includes: []
 execution:
     timeout: 60s
     memory: 1MB
