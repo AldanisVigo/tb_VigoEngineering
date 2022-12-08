@@ -1,0 +1,15 @@
+id: QmasnANNqFzyd14LdgXBMgBHZaTKuPHfJe4KS4ffczepGg
+description: Adds a user to the database
+tags: []
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /adduser
+domains:
+    - VigoCodingDomain
+includes: []
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: adduser
