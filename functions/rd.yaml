@@ -1,17 +1,17 @@
 id: QmaWzeVDwadFwGFaM8emd99nw7NyTNYCQtq6UmEuRRBvdB
 description: Read data from a database as json
 tags:
-    - whyunowok
+    - rdfunc
 trigger:
     type: https
     method: GET
     paths:
-        - /readDataAsJson
+        - /rd
 domains:
-    - GeneratedDomain
+    - VigoCodingDomain
 includes:
-    - /functions/readDataAsJson.go
+    - /functions/rd.go
 execution:
     timeout: 120s
     memory: 5MB
-    call: readDataAsJson
+    call: rd
