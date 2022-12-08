@@ -5,7 +5,7 @@ trigger:
     type: https
     method: GET
     paths:
-        - /read
+        - /readDataAsJson
 domains:
     - VigoCodingDomain
 includes:
