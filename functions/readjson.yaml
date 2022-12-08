@@ -2,7 +2,7 @@ id: QmdJ2DB8eDPbs74SJZogwxnnnK2pcDuESdnkkqN4FrZW79
 description: return some json to the user
 tags: []
 trigger:
-    type: http
+    type: https
     method: GET
     paths:
         - /readjsonfromdb
