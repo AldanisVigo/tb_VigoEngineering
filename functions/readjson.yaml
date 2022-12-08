@@ -1,0 +1,16 @@
+id: QmdJ2DB8eDPbs74SJZogwxnnnK2pcDuESdnkkqN4FrZW79
+description: Returns pong to a ping over http
+tags: []
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /readjson
+domains:
+    - VigoCodingDomain
+includes:
+    - /functions/readjson.go
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: readjson
