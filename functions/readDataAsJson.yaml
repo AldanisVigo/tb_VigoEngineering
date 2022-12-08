@@ -1,15 +1,15 @@
-id: QmacgzppxhbA5WxyESPFyeH6Bx6k76VHGVnTevbTrzw1AM
-description: Ping example function
+id: QmaWzeVDwadFwGFaM8emd99nw7NyTNYCQtq6UmEuRRBvdB
+description: Read data from a database as json
 tags: []
 trigger:
     type: https
     method: GET
     paths:
-        - /readDataAsJson
+        - /read
 domains:
     - VigoCodingDomain
 includes:
-    - /functions/ping.go
+    - /functions/readDataAsJson.go
 execution:
     timeout: 60s
     memory: 1MB
