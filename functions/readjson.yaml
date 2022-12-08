@@ -1,11 +1,11 @@
 id: QmdJ2DB8eDPbs74SJZogwxnnnK2pcDuESdnkkqN4FrZW79
-description: Returns pong to a ping over http
+description: return some json to the user
 tags: []
 trigger:
     type: http
     method: GET
     paths:
-        - /readjson
+        - /readjsonfromdb
 domains:
     - VigoCodingDomain
 includes:
