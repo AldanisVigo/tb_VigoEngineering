@@ -9,7 +9,7 @@ encryption:
     type: AES512
     key: testdatabasekey
 access:
-    network: host
+    network: all
 replicas:
     min: 1
     max: 1
