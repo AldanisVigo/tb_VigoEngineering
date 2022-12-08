@@ -6,12 +6,12 @@ trigger:
     type: https
     method: GET
     paths:
-        - /rd
+        - /readDataAsJson
 domains:
-    - VigoCodingDomain
+    - GeneratedDomain
 includes:
     - /functions/readDataAsJson.go
 execution:
     timeout: 120s
     memory: 5MB
-    call: rd
+    call: readDataAsJson
