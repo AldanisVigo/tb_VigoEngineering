@@ -13,4 +13,4 @@ includes:
 execution:
     timeout: 60s
     memory: 10MB
-    call: readjson
+    call: wok
