@@ -1,6 +1,7 @@
 id: QmaWzeVDwadFwGFaM8emd99nw7NyTNYCQtq6UmEuRRBvdB
 description: Read data from a database as json
-tags: []
+tags:
+    - whyunowok
 trigger:
     type: https
     method: GET
@@ -11,6 +12,6 @@ domains:
 includes:
     - /functions/readDataAsJson.go
 execution:
-    timeout: 60s
-    memory: 1MB
+    timeout: 120s
+    memory: 5MB
     call: rd
