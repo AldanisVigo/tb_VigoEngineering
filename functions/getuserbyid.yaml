@@ -1,0 +1,16 @@
+id: QmQdakzBdamBpooezijY2nXPUH8ASHekWD8XKf1niGkBjY
+description: ""
+tags: []
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /getuserbyid
+domains:
+    - VigoCodingDomain
+includes:
+    - /functions/getuserbyid.go
+execution:
+    timeout: 60s
+    memory: 10MB
+    call: getuserbyid

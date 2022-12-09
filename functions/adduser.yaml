@@ -8,7 +8,7 @@ trigger:
         - /adduser
 domains:
     - VigoCodingDomain
-includes: 
+includes:
     - /functions/adduser.go
 execution:
     timeout: 60s
