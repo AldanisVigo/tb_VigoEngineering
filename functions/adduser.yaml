@@ -3,7 +3,7 @@ description: Adds a user to the database
 tags: []
 trigger:
     type: https
-    method: GET
+    method: POST
     paths:
         - /adduser
 domains:
