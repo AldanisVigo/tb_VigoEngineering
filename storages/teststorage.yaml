@@ -1,0 +1,11 @@
+id: QmcjZaa81ZtPLjzyhVi4ZJp2rcQvNDRnjprj3WRaATMYiz
+description: test storage
+tags:
+    - teststorae
+match: teststorage
+useRegex: false
+access:
+    network: host
+object:
+    versioning: false
+    size: 20MB
