@@ -9,7 +9,8 @@ trigger:
         - /uploadfile
 domains:
     - VigoCodingDomain
-includes: []
+includes: 
+    - functions/uploadfile.go
 execution:
     timeout: 60s
     memory: 10MB
