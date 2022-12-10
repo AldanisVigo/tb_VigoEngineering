@@ -1,0 +1,16 @@
+id: QmT9Lbw15qrXVx3nfunWh3hyNPzaFu3QZ88LCrJpPiBZgv
+description: Uploads a file to storage teststorage
+tags:
+    - uploadfile
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /uploadfile
+domains:
+    - VigoCodingDomain
+includes: []
+execution:
+    timeout: 60s
+    memory: 10MB
+    call: uploadfile
