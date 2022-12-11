@@ -1,5 +1,5 @@
 id: QmQdakzBdamBpooezijY2nXPUH8ASHekWD8XKf1niGkBjY
-description: ""
+description: Get user data by user UUID
 tags: []
 trigger:
     type: https

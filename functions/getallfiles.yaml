@@ -1,6 +1,6 @@
 id: QmfApspA7W4Zc3LE2CczYaPJAwTkNSDnpLciEJjmw3J2Eu
 description: Get all files from a storage bucket
-tags: 
+tags:
     - getallfiles
 trigger:
     type: https
@@ -9,7 +9,7 @@ trigger:
         - /getallfiles
 domains:
     - VigoCodingDomain
-includes: 
+includes:
     - functions/getallfiles.go
 execution:
     timeout: 60s
