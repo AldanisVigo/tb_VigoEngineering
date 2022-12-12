@@ -1,0 +1,17 @@
+id: QmXsy7U1hNfBKcmvCRG8xgQvX9gRSf96H8UdSrkz9hhofx
+description: Get a file given a UUID and path
+tags:
+    - getfile
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /getfile
+domains:
+    - VigoCodingDomain
+includes:
+    - /functions/getfile.go
+execution:
+    timeout: 60s
+    memory: 10MB
+    call: getfile
