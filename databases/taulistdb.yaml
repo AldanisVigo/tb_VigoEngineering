@@ -1,0 +1,14 @@
+id: QmZiruLUgSp3tAZcqse2tYxB3MYAtpVqe5CuBs8SmdmxHi
+description: TauList application database
+tags:
+    - taulistdb
+path: /
+match: taulistdb
+useRegex: false
+access:
+    network: all
+replicas:
+    min: 1
+    max: 5
+storage:
+    size: 100MB
