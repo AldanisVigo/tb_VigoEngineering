@@ -1,0 +1,15 @@
+id: QmdNm1eMW2ytrDTxGnpfuocXbVSQgiquUXX7yf4Gru4NPj
+description: TauList application endpoint
+tags: []
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /taulistendpoint
+domains:
+    - GeneratedDomain
+includes: []
+execution:
+    timeout: 60s
+    memory: 10MB
+    call: taulistendpoint

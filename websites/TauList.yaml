@@ -1,0 +1,14 @@
+id: QmTAgjkGyXpkjXs8C3Wz7QFMhvKaaiQdxR5aaBXKpKpnv8
+description: Classifieds test application on TauByte
+tags: []
+domains:
+    - GeneratedDomain
+libraries: []
+source:
+    paths:
+        - /
+    includes: []
+    branch: main
+    github:
+        id: 578052444
+        fullname: AldanisVigo/TauList
