@@ -8,7 +8,8 @@ trigger:
         - /taulistendpoint
 domains:
     - GeneratedDomain
-includes: []
+includes: 
+    - functions/taulistEndpoint.go
 execution:
     timeout: 60s
     memory: 10MB
