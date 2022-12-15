@@ -1,0 +1,17 @@
+id: QmQmVuhddmNj5Z4NT8GJEBtfcRKZd3rR3EzXxC4G9hJEQY
+description: taulistendpoint
+tags:
+    - taulistendpoint
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /taulistendpoint
+domains:
+    - VigoCodingDomain
+    - GeneratedDomain
+includes: []
+execution:
+    timeout: 60s
+    memory: 10MB
+    call: taulistendpoint
