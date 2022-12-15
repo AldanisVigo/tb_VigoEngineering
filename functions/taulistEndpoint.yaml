@@ -10,7 +10,7 @@ domains:
     - GeneratedDomain
     - VigoCodingDomain
 includes: 
-    - functions/taulistendpoint.go
+    - /functions/taulistendpoint.go
 execution:
     timeout: 30s
     memory: 10MB
