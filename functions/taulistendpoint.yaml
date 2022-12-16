@@ -10,8 +10,7 @@ trigger:
 domains:
     - VigoCodingDomain
     - GeneratedDomain
-includes: 
-    - /functions/taulistendpoint.go
+includes: []
 execution:
     timeout: 60s
     memory: 10MB
