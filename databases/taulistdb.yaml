@@ -1,0 +1,14 @@
+id: QmPe2cgaUsd26DFfozN6xYkiLs6LgpCvP9TdutX3mnhakt
+description: taulistdb
+tags:
+    - taulistdb
+path: /
+match: taulistdb
+useRegex: false
+access:
+    network: all
+replicas:
+    min: 1
+    max: 5
+storage:
+    size: 100MB
